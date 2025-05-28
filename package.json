@@ -1,0 +1,17 @@
+{
+  "name": "ebook-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "simple": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "json-server-auth": "^1.2.1",
+    "nodemon": "^3.0.2"
+  }
+}

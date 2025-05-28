@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$EujkVechr0HfBxTqQEhePurkjppa/qQcvQ8s3PhAhjOu.2Fl6kuJu",
+      "name": "Administrateur",
+      "id": 1
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Le Petit Prince",
+      "author": "Antoine de Saint-Exupéry",
+      "description": "Un conte philosophique et poétique...",
+      "category": "Littérature",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "Un roman dystopique...",
+      "category": "Science-Fiction",
+      "createdAt": "2024-01-16T14:20:00Z"
+    },
+    {
+      "email": "admin@example.com",
+      "password": "password123",
+      "id": 3
+    }
+  ]
+}
